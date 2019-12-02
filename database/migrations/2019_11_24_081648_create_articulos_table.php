@@ -23,7 +23,6 @@ class CreateArticulosTable extends Migration
             $table->bigInteger('imagen_articulo_id')->unsigned();
             $table->integer('unidades');
             $table->decimal('precio', 5, 2);
-            $table->boolean('activo');
             $table->timestampsTz();
             $table->softDeletesTz();
         });

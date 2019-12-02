@@ -1,0 +1,387 @@
+/* Estilos Cabecera de Página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #6a6a6a;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+#superiorCabecera {
+    background-color: #EEE;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    clear: left;
+    overflow: auto;
+}
+
+#superiorCabecera * {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    overflow: visible;
+}
+
+#superiorCabecera i {
+    padding-top: 10px;
+    margin-right: 10px;
+    font-size:1rem;
+}
+
+#medioCabecera {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    clear: left;
+}
+
+#medioCabecera * {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    word-wrap: break-word;
+    -moz-word-wrap: break-word;
+}
+
+#medioCabecera h4 {
+    font-size: 1.6rem;
+}
+
+#logo img {
+    width: 100%;
+    height: 90%;
+}
+
+#buscador input {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 60px;
+    padding-left: 10px;
+}
+#escribenos, #llamanos{
+    margin-top:20px;
+}
+
+#escribenosIcono i, #llamanosIcono i {
+    font-size: 5em;
+    padding-left: 25%;
+}
+
+#llamanos p, #escribenos p {
+    font-size: 1em;
+    padding-left: 10%;
+    font-weight: 500;
+}
+
+#inferiorCabecera {
+    display: block;
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: #7CAF2C;
+    margin-top: 40px;
+}
+
+#inferiorCabecera ul {
+    padding-left: 15%;
+}
+
+#inferiorCabecera li {
+    color: #FFF;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 20px;
+}
+
+/* Estilos Main de Página */
+
+main{
+    display:block;
+    float:left;
+    width:100%;
+}
+
+main nav{
+    display:block;
+    float:left;
+    width:25%;
+    padding:2rem;
+}
+main section{
+    display:block;
+    float:left;
+    width:75%;
+    padding:2rem;
+}
+#menuProductos{
+    width:100%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding-bottom:20px;
+    border: 1px solid #EBEBEB;
+
+}
+#cabeceraMenu{
+    width:100%;
+    height:80px;
+    background-color: #7CAF2C;
+    border-bottom: 1px solid #EBEBEB;
+    padding-top: 30px;
+    border-radius: 20px 20px 0px 0px
+;
+}
+#cabeceraMenu h4{
+    color:#FFF;
+    text-align: center;
+}
+#menuSecciones{
+    padding:20px 0px 20px 30px;
+}
+#menuSecciones ul li{
+    margin: 2px 0px;
+    margin-left: -20px;
+    list-style:none;
+    font-size:1rem;
+}
+#menuSecciones ul li i{
+    margin-right:8px;
+}
+#menuSecciones ul li ul{
+    margin:5px 0px;
+}
+#menuSecciones ul li ul li{
+    margin: 2px 0px;
+    list-style:none;
+    font-size:0.8rem;
+}
+#menuSecciones ul li ul li i{
+    margin-right:8px;
+}
+
+/* Estilos Central Página */
+.rejilla{
+    display:block;
+    float:left;
+    height:440px;
+}
+.producto{
+    display:block;
+    float:left;
+    margin:10px;
+    width:100%;
+    height:400px;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+}
+.tituloProducto{
+    display:block;
+    float:left;
+    width:100%;
+    height:50px;
+}
+.producto .tituloProducto h6{
+    margin:20px 10px 10px 20px;
+    font-weight:bold;
+    font-size:14px;
+}
+.precioProducto{
+    display:block;
+    float:left;
+    width:100%;
+    height:40px;
+    text-align:right;
+}
+.precioProducto span{
+    font-size:23px;
+    font-weight:bold;
+}
+.producto .img-fluid{
+    width:100%;
+    padding:10px 20px 0% 20px;
+    height:260px;
+}
+
+.controladorCompra{
+    width:100%;
+    display:block;
+    float:left;
+}
+
+.botonWhish{
+    width:20%;
+    color:#EE1F33;
+    font-size:30px;
+    margin-top:1px;
+    display:block;
+    float:left;
+    margin-left:30px;
+}
+
+.botonComprar{
+    display:block;
+    float:left;
+    width:200px;
+    height:35px;
+    background-color: #7CAF2C;
+    border: 1px solid #EBEBEB;
+    color:#FFF;
+    font-size:1rem;
+    border-radius: 20px;
+}
+.botonComprar i{
+    display:inline-block;
+    float:left;
+    margin: 0px 10px 0px 10px;
+    font-size:22px;
+    color:#000;
+    margin-top:4px;
+}
+.botonComprar p{
+    display:inline-block;
+    float:left;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos Pie de Página */
+
+#superiorPie{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+#carousel{
+    height:150px;
+    width:70%;
+    margin:0 auto;
+    overflow:hidden;
+}
+#burbuja1,#burbuja2,#burbuja3,#burbuja4,#burbuja5{
+    display:inline-block;
+    width:200px;
+    height:150px;
+    margin: 0px 50px;
+}
+.marca{
+    width:8rem;
+    height:8rem;
+}
+
+#medioPie {
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 30px;
+    margin-top:0px;
+}
+
+#izquierdaPie, #centroPie, #derechaPie {
+    display: block;
+    float: left;
+}
+
+#mapa {
+    display: block;
+    width: 95%;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #EEE;
+}
+
+#mapa li {
+    margin-left: -20px;
+    list-style: none;
+}
+
+#centroPie li {
+    margin-left: -10px;
+    list-style: none;
+}
+
+#derechaPie li {
+    list-style: none;
+}
+
+#centroPie li i, #derechaPie li i {
+    margin-right: 10px;
+}
+
+#nuestraEmpresa, #infoTienda {
+    margin-top: 60px;
+}
+
+#formasPago li {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    font-size:3rem;
+}
+
+#emailPie {
+    margin-left: 30px;
+}
+
+#redesSociales ul li {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    font-size:3rem;
+}
+
+#redesSociales ul li:nth-child(1) {
+    color: blue;
+}
+
+#redesSociales ul li:nth-child(2) {
+    color: orange;
+}
+
+#redesSociales ul li:nth-child(3) {
+    color: red;
+}
+
+#redesSociales ul li:nth-child(4) {
+    color: blue;
+}
+
+
+#inferiorPie {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 50px;
+    color: #FFF;
+    background-color: #3E474C;
+    font-size: 0.8em;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
