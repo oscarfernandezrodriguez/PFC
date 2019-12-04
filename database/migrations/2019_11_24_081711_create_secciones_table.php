@@ -17,6 +17,7 @@ class CreateSeccionesTable extends Migration
             $table->smallIncrements('id_seccion');
             $table->bigInteger('usuario_id')->unsigned();
             $table->string('descripcion', 120);
+            $table->string('slug', 256);
             $table->timestampsTz();
             $table->softDeletesTz();
         });

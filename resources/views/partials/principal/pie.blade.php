@@ -87,12 +87,10 @@
         <div id="nuestraEmpresa">
             <h4>NUESTRA EMPRESA</h4>
             <ul>
-                <li><i class="fas fa-arrow-right"></i> Condiciones de uso</li>
-                <li><i class="fas fa-arrow-right"></i> Quienes Somos</li>
-                <li><i class="fas fa-arrow-right"></i> Servicios</li>
-                <li><i class="fas fa-arrow-right"></i> Garantia De Devolución</li>
-                <li><i class="fas fa-arrow-right"></i> Tarifa De Precios de Envio</li>
-                <li><i class="fas fa-arrow-right"></i> Métodos De Pago</li>
+                <li><i class="fas fa-arrow-right"></i><a href="/condiciones-de-uso">Condiciones de uso</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="/garantia-de-devolucion">Garantia De Devolución</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="/tarifas-de-envio">Tarifa De Precios de Envio</a></li>
+                <li><i class="fas fa-arrow-right"></i><a href="/metodos-de-pago">Métodos De Pago</a></li>
             </ul>
         </div>
     </div>

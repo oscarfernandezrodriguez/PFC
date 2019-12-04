@@ -18,6 +18,7 @@ class CreateSubseccionesTable extends Migration
             $table->smallInteger('seccion_id')->unsigned();
             $table->bigInteger('usuario_id')->unsigned();
             $table->string('descripcion', 120);
+            $table->string('slug', 256);
             $table->timestampsTz();
             $table->softDeletesTz();
         });

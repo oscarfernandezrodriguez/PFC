@@ -13,7 +13,7 @@
 </div>
 <div class="row" id="medioCabecera">
     <div class="col-12 col-sm-3" id="logo">
-        <img src="{{ asset('images/logo.png') }}"  class="img-fluid">
+        <a href="/"><img src="{{ asset('images/logo.png') }}" class="img-fluid"></a>
     </div>
     <div id="buscador" class="col-12 col-sm-3">
         <input type="text" name="buscador" value="" placeholder="Busca en nuestro catálogo..." autocomplete="off">
@@ -38,12 +38,12 @@
     </div>
 </div>
 <div id="inferiorCabecera">
-    @php
-    $Secciones=App\Seccion::all();
-    @endphp
     <ul>
        @foreach($Secciones as $seccion)
-            <li>{{$seccion->descripcion}}</li>
+           @php
+               $slugSeccion=$seccion->slug;
+           @endphp
+            <li><a href="/categoria/{{$slugSeccion}}/">{{$seccion->descripcion}}</a></li>
         @endforeach
     </ul>
 
