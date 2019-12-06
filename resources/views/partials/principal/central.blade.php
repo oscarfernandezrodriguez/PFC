@@ -1,3 +1,4 @@
+<section>
 @if(!isset($slugSeccion))
     <h1 id="cabeceraInfo">Página {{$pagina}}</h1>
 @elseif(isset($slugSubseccion))
@@ -11,7 +12,7 @@
         $slugSubcategoria=\App\Subseccion::select('subsecciones.slug')->join('articulos','articulos.subseccion_id','=','subsecciones.id_subseccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
         $slugArticulo=\App\Articulo::select('articulos.slug')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
     @endphp
-    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 rejilla">
+    <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rejilla">
         <div class="producto">
             <a href="/categoria/{{$slugCategoria[0]['slug']}}/{{$slugSubcategoria[0]['slug']}}/{{$slugArticulo[0]['slug']}}"><img
                     src="{{ asset('images/imagen_articulo/'.$Articulos[$numeroArticulo]->imagen_articulo_id.'.jpg') }}"
@@ -26,11 +27,11 @@
             </div>
             <div class="controladorCompra">
                 <div class="botonWhish">
-                    <i class="fas fa-heart"></i>
+                    <a href="javascript://ajax"  onclick="updateWishlist('{{$Articulos[$numeroArticulo]->id_articulo}}');"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="botonComprar">
                     <i class="fas fa-shopping-basket"></i>
-                    <p>Añadir al carrito</p>
+                    <a href="javascript://ajax"  onclick="updateOrder('{{$Articulos[$numeroArticulo]->id_articulo}}');"><p>Añadir al carrito</p></a>
                 </div>
             </div>
         </div>
@@ -81,3 +82,4 @@
         </div>
     </div>
 @endif
+</section>

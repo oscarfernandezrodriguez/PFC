@@ -11,6 +11,6 @@ class BancosTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Banco::class, 30)->create();
     }
 }

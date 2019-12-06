@@ -16,7 +16,6 @@ class CreateTarjetasTable extends Migration
         Schema::create('tarjetas', function (Blueprint $table) {
             $table->bigIncrements('id_tarjeta');
             $table->bigInteger('usuario_id')->unsigned();
-            $table->bigInteger('empresa_cobro_id')->unsigned();
             $table->string('numero_tarjeta', 256);
             $table->integer('mes');
             $table->integer('ano');

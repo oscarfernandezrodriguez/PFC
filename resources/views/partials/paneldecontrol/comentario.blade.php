@@ -1,3 +1,4 @@
+<section>
 <h1 id="cabeceraInfo">Comentarios hechos en la web</h1>
 <div id="comentariosProducto">
     <h3>Comentarios ({{sizeof($comentariosUsuario)}}):</h3>
@@ -28,3 +29,4 @@
             class="alert alert-info"><i class="fa fa-history"></i> No hay comentarios aún, sé el primero!</h5>
     @endif
 </div>
+</section>

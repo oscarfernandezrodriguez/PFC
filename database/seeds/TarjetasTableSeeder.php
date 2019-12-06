@@ -11,6 +11,6 @@ class TarjetasTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Tarjeta::class, 30)->create();
     }
 }

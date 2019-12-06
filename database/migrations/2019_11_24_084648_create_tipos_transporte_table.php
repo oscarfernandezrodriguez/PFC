@@ -14,7 +14,7 @@ class CreateTiposTransporteTable extends Migration
     public function up()
     {
         Schema::create('tipos_transporte', function (Blueprint $table) {
-            $table->smallIncrements('id_tipo_envio');
+            $table->smallIncrements('id_tipo_transporte');
             $table->bigInteger('usuario_id')->unsigned();
             $table->string('descripcion', 120);
             $table->decimal('precio', 5, 2);

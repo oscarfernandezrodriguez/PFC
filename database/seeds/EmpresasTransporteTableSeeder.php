@@ -11,6 +11,6 @@ class EmpresasTransporteTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Empresa_transporte::class, 15)->create();
     }
 }

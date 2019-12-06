@@ -18,7 +18,6 @@ class CreateEmpresasCobroTable extends Migration
             $table->bigInteger('usuario_id')->unsigned();
             $table->string('nombre_empresa', 256);
             $table->smallInteger('tipo_cobro_id')->unsigned();
-            $table->boolean('activo');
             $table->timestampsTz();
             $table->softDeletesTz();
         });

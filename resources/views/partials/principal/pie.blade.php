@@ -116,7 +116,6 @@
         </div>
     </div>
 </div>
-</div>
 <div id="inferiorPie">
     <p class="copy">© 2019 - FerroFarma. Todos los derechos reservados</p>
 </div>

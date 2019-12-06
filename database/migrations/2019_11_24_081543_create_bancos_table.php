@@ -16,7 +16,6 @@ class CreateBancosTable extends Migration
         Schema::create('bancos', function (Blueprint $table) {
             $table->bigIncrements('id_banco');
             $table->bigInteger('usuario_id')->unsigned();
-            $table->bigInteger('empresa_cobro_id')->unsigned();
             $table->string('numero_banco', 256);
             $table->string('titular',320);
             $table->boolean('activo');

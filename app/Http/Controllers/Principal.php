@@ -17,7 +17,7 @@ class Principal extends Controller
      */
     public function index()
     {
-        $Articulos=Articulo::inRandomOrder()->get();
+        $Articulos=Articulo::inRandomOrder()->where('unidades','>',0)->get();
         $maxArticulos=Articulo::all()->count();
         $Secciones=\App\Seccion::all();
         $minimo=0;

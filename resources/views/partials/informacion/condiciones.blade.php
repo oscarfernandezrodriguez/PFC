@@ -1,3 +1,4 @@
+<section>
 <h1 id="cabeceraInfo">CONDICIONES GENERALES DE VENTA</h1>
 <br>
 <h5>I. Condiciones generales de venta</h5>
@@ -191,3 +192,4 @@
     Igualmente las partes se obligan a aceptar y cumplir la decisión contenida en el laudo arbitral que se dicte. Si
     el arbitraje no llegara a realizarse de mutuo acuerdo o fuera declarado nulo, ambas partes se someten a los
     Juzgados y Tribunales, con renuncia expresa a su propio fuero, si éste fuera otro.</p>
+</section>

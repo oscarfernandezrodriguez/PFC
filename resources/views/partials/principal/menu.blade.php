@@ -1,3 +1,26 @@
+@php$Secciones=\App\Seccion::all();@endphp
+<nav id="navegacion">
+    @auth
+        <div id="menuUsuario">
+            <div id="cabeceraUsuario">
+                <h4>MENU DE USUARIO</h4>
+            </div>
+            <div id="menuSecciones">
+                <ul>
+                    <li><i class="fas fa-info infoPA"></i>Información</li>
+                    <li><i class="fas fa-gifts giftsPA"></i>Pedidos</li>
+                    <li><i class="far fa-comments comentariosPA"></i><a href="/panel-de-control/{{Auth::user()->id_usuario}}/comentarios/">Comentarios</a></li>
+                    <li><i class="fas fa-heart heartPA"></i><a href="/panel-de-control/{{Auth::user()->id_usuario}}/wishlist/">Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+    @endauth
+    @guest
+            <div id="registrate">
+                <h3><a href="/registro"><i class="fas fa-sign-in-alt"></i> Registrate!</a></h3>
+            </div>
+
+    @endguest
 <div id="menuProductos">
     <div id="cabeceraMenu">
         <h4>BUSCAR POR CATEGORIAS</h4>
@@ -21,3 +44,4 @@
         </ul>
     </div>
 </div>
+</nav>

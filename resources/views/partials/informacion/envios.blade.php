@@ -1,3 +1,4 @@
+<section>
 <h1 id="cabeceraInfo">Condiciones de envío</h1>
 <p>Según el destino del pedido ofrecemos distintos métodos de envío, así como 2 empresas de mensajería:</p>
 <p></p>
@@ -32,3 +33,4 @@
     <li>Pedidos superiores a 150 euros: Envío gratis</li>
 </ul>
 <p>**Actualmente no realizamos envíos a Islas Canarias, Ceuta y Melilla.**</p>
+</section>

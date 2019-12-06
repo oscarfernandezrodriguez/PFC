@@ -21,7 +21,7 @@ class Categorias extends Controller
         $Secciones = Seccion::all();
         $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
         $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
-        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->get();
+        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->get();
         $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->count();
         $pagina = "Principal";
         $numeroPagina=0;
@@ -45,8 +45,8 @@ class Categorias extends Controller
         $Secciones = Seccion::all();
         $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
         $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
-        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->get();
-        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->count();
+        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->get();
+        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->count();
         if ($numeroPagina > 0) {
             $minimo = (24 * $numeroPagina) - 24;
             $maximo = (24 * $numeroPagina) - 1;
@@ -83,8 +83,8 @@ class Categorias extends Controller
         $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
         $subseccion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('id_subseccion');
         $subseccionDescripcion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('descripcion');
-        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->get();
-        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->count();
+        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->get();
+        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->count();
         $pagina = "Principal";
         $numeroPagina=0;
         $minimo = 0;
@@ -109,8 +109,8 @@ class Categorias extends Controller
         $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
         $subseccion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('id_subseccion');
         $subseccionDescripcion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('descripcion');
-        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->get();
-        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->count();
+        $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->get();
+        $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->count();
         if ($numeroPagina > 0) {
 
             $minimo = (24 * $numeroPagina) - 24;

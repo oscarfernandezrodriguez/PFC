@@ -14,6 +14,7 @@
     <script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/map.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/compras.js') }}"></script>
 @endsection
 
 @section("cabecera")
@@ -31,3 +32,4 @@
 @section("pie")
     @include('partials.principal.pie')
 @endsection
+

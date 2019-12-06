@@ -16,7 +16,6 @@ class CreateEnviosTable extends Migration
         Schema::create('envios', function (Blueprint $table) {
             $table->bigIncrements('id_envio');
             $table->bigInteger('pedido_id')->unsigned();
-            $table->bigInteger('usuario_id')->unsigned();
             $table->bigInteger('empresa_transporte_id')->unsigned();
             $table->smallInteger('estado_envio_id')->unsigned();
             $table->timestampsTz();

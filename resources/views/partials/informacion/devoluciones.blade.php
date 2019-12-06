@@ -1,3 +1,4 @@
+<section>
 <h1 id="cabeceraInfo">Garantía de devolución</h1>
 <h2>Envíos</h2>
 <h3>1. Información de envío</h3>
@@ -42,3 +43,4 @@
     entrega de tu paquete.</p>
 <p>Si detectas alguna incidencia en la recepción de tu pedido, ponte en contacto con el Servicio de atención al Cliente
     de FerroFarma llamando al teléfono 981666666.</p>
+</section>

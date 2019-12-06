@@ -11,6 +11,6 @@ class PedidosArticuloTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Pedido_articulo::class, 900)->create();
     }
 }

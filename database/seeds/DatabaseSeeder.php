@@ -22,6 +22,16 @@ class DatabaseSeeder extends Seeder
         $this->call(ArticulosTableSeeder::class);
         $this->call(ComentariosTableSeeder::class);
         $this->call(WishlistsTableSeeder::class);
-
+        $this->call(DireccionesTableSeeder::class);
+        $this->call(TiposCobroTableSeeder::class);
+        $this->call(TiposTransporteTableSeeder::class);
+        $this->call(EmpresasCobroTableSeeder::class);
+        $this->call(EmpresasTransporteTableSeeder::class);
+        $this->call(TarjetasTableSeeder::class);
+        $this->call(BancosTableSeeder::class);
+        $this->call(PedidosTableSeeder::class);
+        $this->call(EnviosTableSeeder::class);
+        $this->call(CobrosTableSeeder::class);
+        $this->call(PedidosArticuloTableSeeder::class);
     }
 }

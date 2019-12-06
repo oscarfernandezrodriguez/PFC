@@ -14,7 +14,8 @@ class CreatePedidosArticuloTable extends Migration
     public function up()
     {
         Schema::create('pedidos_articulo', function (Blueprint $table) {
-            $table->bigIncrements('id_pedido');
+            $table->bigIncrements('id_pedido_articulo');
+            $table->bigInteger('pedido_id')->unsigned();
             $table->bigInteger('usuario_id')->unsigned();
             $table->bigInteger('articulo_id')->unsigned();
             $table->integer('unidades');

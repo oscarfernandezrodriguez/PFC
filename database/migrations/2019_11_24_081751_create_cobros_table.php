@@ -16,7 +16,6 @@ class CreateCobrosTable extends Migration
         Schema::create('cobros', function (Blueprint $table) {
             $table->bigIncrements('id_cobro');
             $table->bigInteger('pedido_id')->unsigned();
-            $table->bigInteger('usuario_id')->unsigned();
             $table->bigInteger('empresa_cobro_id')->unsigned();
             $table->smallInteger('estado_cobro_id')->unsigned();
             $table->timestampsTz();

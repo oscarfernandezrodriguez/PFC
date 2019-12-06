@@ -11,6 +11,6 @@ class DireccionesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Direccion::class, 600)->create();
     }
 }

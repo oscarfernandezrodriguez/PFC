@@ -1,3 +1,4 @@
+<section>
 <h1 id="cabeceraInfo">FORMAS DE PAGO</h1>
 <h2>Tarjeta de crédito/débito</h2>
 <p >La tienda "FERROFARMA" acepta: <b> Mastercard</b> ,<b> Visa
@@ -35,3 +36,4 @@
     <li>CONCEPTO: Indicar el número de pedido</li>
 </ul>
 <p>Nota: Hasta que se haga efectivo el pago (2 o 3 días hábiles) el pedido no será enviado.</p>
+</section>

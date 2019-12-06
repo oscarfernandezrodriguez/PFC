@@ -17,8 +17,7 @@ class CreateEmpresasTransporteTable extends Migration
             $table->bigIncrements('id_empresa_transporte');
             $table->bigInteger('usuario_id')->unsigned();
             $table->string('nombre_empresa', 256);
-            $table->smallInteger('tipo_envio_id')->unsigned();
-            $table->boolean('activo');
+            $table->smallInteger('tipo_transporte_id')->unsigned();
             $table->timestampsTz();
             $table->softDeletesTz();
         });
