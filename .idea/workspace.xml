@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1b24bcb-bacc-4596-95dd-3aee4a76024b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Buscador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Carrito.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/28/10/281070fe8b21e1a59b7ffce4b96b9013a8b7f29a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/dc/c4/dcc4973aa9c4577f646152bedf460003bc519fa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/wnrd3sp4Moss9LLSyi85wJYwZf9DmHBCVEEsKpJ2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/0452a931590673677567978ba36799a2b848e1ad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/0f2618964d99987be3e37d0357d5b659533a0d24.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/16045b2780741aaeb0cc5e8ee360848ca51f8af2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/16596d421b1f2144d338f0b9550aa56365d1a656.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/1aaf152bc40ce060a4c58b85293816a702a944ee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/1f153ff0284733315e781288bb8dceb7ce2b471c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/25288004a6feb3bbf0343c3ffac1f438ad88498b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/2678a0580632c770b5f5e4e2c5a76922922a03ce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/386915a3b9a60e3fc4655e947334b148553b66fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/3c262dfa4ec9edf2f03f2fb6f06def2a6b149fa5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/4335c67432c328e51211c27a1e624a0faa064e7e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/47d864d148d619a040497b8ab001824a66e53fbb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/5775eef1bccc5a58656e664e613f7fc8ade67b97.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/58bfb4f45c0c8535c925b53573fefabb64e65a7d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/5de3368c63424e212a37a6131e50f1d95a45042f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/60e6bebbf07fa67494ac7941acbd21ba76ff755e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/643cdc26211ec84dbb5b1f457a10bfb38b9e97d2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/6f40172463e26fce1ed59753cb5ad70a1cbaf0a2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/73551aa056ef0dc47423b44d21add6a276981ba9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/7b11e00aea19e93325464741be42486715c33d49.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/8394e0291920c7a94d0225cd415d9cdb7c128bdb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/8607f1fccbd3ba0583188806c0a88c23fcce9e3c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/89f2de2230cc1c2b60a7fe4396278f9e6aaca0c9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/923664e957e303c87747dd6535efa84c47518c8a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/92f03a753daa35959233bb9ab382310852221177.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/94471a81b595539eaea0a038baebb70151e73fc0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/96a35b0824f815410fdbc25f9f8533b1c94537b3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a0b8f03addcdcf1aacf59e9d7bc140923f8197ea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a5bee6c6e90e01ae6c48dee49734e78dfd7755fd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a81c5ba225d7d19bcc479ca1d0cf5f05a54535ed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a837d86d4e7c88615fcbf479bd2b191b2d44b612.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/af3fd2eb9e10f09d6d786fefdf7dc0b6231796a0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/b7d5ab7343cedb726a6f6b97fcdd75dce4a0064a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/b7f229e94de67d9bdafc71f41acc17da5acbdec5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/c5f34d708642e7fdf9789e2ba8d9243a5fd9c2a5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/c71b1618312bf306814e683b683a9b3221b8ee3c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/c8838ffe954a29adbf6a66e77ea614c0b7e7a592.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/ce8a76f4e60ad9309e3927a1dd865de580f9a786.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/d4ce17232b0c4b6cfac90a87e571a113c97baf66.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/dfd9a71e11338fe3c6c8a9ec994e6065dfc72b10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/e0a1e768d2053dc53688b2a4b8fc37e9c4f9d46d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/f7110601c7013ba18a4535fcdefae0eb96914411.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/fcfe9c15d2a09ab5d9b6efad63a0d051a80edd47.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/.php_cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/SeekException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Middleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Pool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RequestOptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RetryMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/UriTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions_include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/AggregateException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/CancellationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Coroutine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/EachPromise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/FulfilledPromise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Promise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromiseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromisorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectedPromise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueueInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions_include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/BufferStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/CachingStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/DroppingStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LimitStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/NoSeekStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Rfc7230.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UploadedFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions_include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/src/getallheaders.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Oscar Fernandez rodriguez" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/mpociot/laravel-test-factory-helper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1U13skifG9Otwa16Kim3FFGj2m9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/partials/carrito" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/partials/carrito" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/resources/views/partials/paneldecontrol" />
+      <recent name="$PROJECT_DIR$/resources/lang/es" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/resources/views/partials" />
+      <recent name="$PROJECT_DIR$/resources/views/partials/productos" />
+      <recent name="$PROJECT_DIR$/resources/views/informacion" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.PFC-OFR">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PFC-OFR" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/public/" port="6060">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.PFC-OFR" />
+      <item itemvalue="PHP Web Page.Unnamed" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1b24bcb-bacc-4596-95dd-3aee4a76024b" name="Default Changelist" comment="" />
+      <created>1574510482951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574510482951</updated>
+      <workItem from="1574510491197" duration="378000" />
+      <workItem from="1574510947305" duration="15551000" />
+      <workItem from="1574593867490" duration="8376000" />
+      <workItem from="1574606748943" duration="18032000" />
+      <workItem from="1574721817961" duration="11942000" />
+      <workItem from="1575141094299" duration="54000" />
+      <workItem from="1575141229777" duration="3941000" />
+      <workItem from="1575185828640" duration="3682000" />
+      <workItem from="1575189694357" duration="64558000" />
+      <workItem from="1575317619124" duration="1841000" />
+      <workItem from="1575320640119" duration="19054000" />
+      <workItem from="1575364410000" duration="40055000" />
+      <workItem from="1575419974419" duration="1044000" />
+      <workItem from="1575465456198" duration="4013000" />
+      <workItem from="1575469495879" duration="9380000" />
+      <workItem from="1575482376854" duration="19530000" />
+      <workItem from="1575503147958" duration="9771000" />
+      <workItem from="1575514391254" duration="2230000" />
+      <workItem from="1575516886521" duration="23473000" />
+      <workItem from="1575561660348" duration="30906000" />
+      <workItem from="1575628446985" duration="65684000" />
+      <workItem from="1575722788132" duration="17254000" />
+      <workItem from="1575741497369" duration="20630000" />
+      <workItem from="1575768757721" duration="6327000" />
+      <workItem from="1575795731141" duration="2291000" />
+      <workItem from="1575798070982" duration="43051000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inicio del Proyecto- base de datos gestionada">
+      <created>1574608316202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574608316202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pagina principal diseñada">
+      <created>1575305392961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575305392962</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Paginas de artículos y secciones diseñadas">
+      <created>1575413929187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575413929188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Paginas de artículos y secciones diseñadas- Reformalizadas">
+      <created>1575420693911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575420693911</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Paginas dados estilos responsive">
+      <created>1575660725112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660725112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Página Finalizada">
+      <created>1575848628344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575848628344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Inicio del Proyecto- base de datos gestionada" />
+    <MESSAGE value="Pagina principal diseñada" />
+    <MESSAGE value="Paginas de artículos y secciones diseñadas" />
+    <MESSAGE value="Paginas de artículos y secciones diseñadas- Reformalizadas" />
+    <MESSAGE value="Paginas dados estilos responsive" />
+    <MESSAGE value="Página Finalizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Página Finalizada" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="676" y="305" width="624" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575470265032">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="676" y="305" width="624" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575470265032" />
+    <state x="676" y="228" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575574335532">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="676" y="228" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575574335532" />
+    <state x="746" y="48" width="476" height="903" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575629837309">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="746" y="48" width="476" height="903" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575629837309" />
+    <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575759427533">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575759427533" />
+    <state x="262" y="104" width="1208" height="803" key="CommitChangelistDialog2" timestamp="1575848627797">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="262" y="104" width="1208" height="803" key="CommitChangelistDialog2/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575848627797" />
+    <state x="781" y="417" key="Github.CreateGistDialog" timestamp="1575848789622">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="781" y="417" key="Github.CreateGistDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575848789622" />
+    <state width="1807" height="244" key="GridCell.Tab.0.bottom" timestamp="1575800900740">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1807" height="244" key="GridCell.Tab.0.bottom/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
+    <state width="1807" height="244" key="GridCell.Tab.0.center" timestamp="1575800900740">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1807" height="244" key="GridCell.Tab.0.center/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
+    <state width="1807" height="244" key="GridCell.Tab.0.left" timestamp="1575800900740">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1807" height="244" key="GridCell.Tab.0.left/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
+    <state width="1807" height="244" key="GridCell.Tab.0.right" timestamp="1575800900740">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="1807" height="244" key="GridCell.Tab.0.right/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
+    <state x="791" y="313" width="394" height="373" key="NewPhpClassDialog" timestamp="1575490844897">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="791" y="313" width="394" height="373" key="NewPhpClassDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575490844897" />
+    <state x="825" y="212" width="326" height="575" key="RollbackChangesDialog" timestamp="1575835602998">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="825" y="212" width="326" height="575" key="RollbackChangesDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575835602998" />
+    <state width="573" height="446" key="SwitcherDM" timestamp="1575467423112">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state width="573" height="446" key="SwitcherDM/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575467423112" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1575848767768">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575848767768" />
+    <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575822295046">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575822295046" />
+    <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575822358960">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575822358960" />
+    <state x="67" y="182" width="704" height="793" key="find.popup" timestamp="1575584022790">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="67" y="182" width="704" height="793" key="find.popup/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575584022790" />
+    <state x="657" y="227" width="672" height="677" key="run.anything.popup" timestamp="1575762428276">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="657" y="227" width="672" height="677" key="run.anything.popup/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575762428276" />
+    <state x="583" y="161" width="800" height="677" key="scopes" timestamp="1575366568401">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="583" y="161" width="800" height="677" key="scopes/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575366568401" />
+  </component>
+</project>
