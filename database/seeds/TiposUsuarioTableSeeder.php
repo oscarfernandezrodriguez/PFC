@@ -17,7 +17,6 @@ class TiposUsuarioTableSeeder extends Seeder
         App\Tipo_Usuario::create(['usuario_id'=>1,'descripcion'=>'Administrativo']);
         App\Tipo_Usuario::create(['usuario_id'=>1,'descripcion'=>'Almacenista']);
         App\Tipo_Usuario::create(['usuario_id'=>1,'descripcion'=>'Usuario']);
-        App\Tipo_Usuario::create(['usuario_id'=>1,'descripcion'=>'Visitante']);
         Schema::enableForeignKeyConstraints();
     }
 }

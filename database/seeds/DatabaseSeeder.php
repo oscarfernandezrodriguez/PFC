@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
         $this->call(TiposTransporteTableSeeder::class);
         $this->call(EmpresasCobroTableSeeder::class);
         $this->call(EmpresasTransporteTableSeeder::class);
+        /* Para probar la base de datos  se pueden habilitar*/
         $this->call(TarjetasTableSeeder::class);
-        $this->call(BancosTableSeeder::class);
         $this->call(PedidosTableSeeder::class);
         $this->call(EnviosTableSeeder::class);
         $this->call(CobrosTableSeeder::class);

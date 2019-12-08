@@ -17,8 +17,8 @@ class Articulos extends Controller
     public function articulo($slugSeccion, $slugSubseccion, $slugArticulo)
     {
         $Secciones = Seccion::all();
-        $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
-        $subseccion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('id_subseccion');
+        $seccion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('id_seccion');
+        $subseccion = Subseccion::where('slug_subseccion', 'LIKE', $slugSubseccion)->get('id_subseccion');
         $Articulo = \App\Articulo::where('articulos.slug', '=', $slugArticulo)->where('unidades','>',0)->get();
         if (sizeof($Articulo) > 0) {
                 return view("articulo", compact('slugSeccion', 'slugSubseccion', 'Articulo', 'Secciones'));

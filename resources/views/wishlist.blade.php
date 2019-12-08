@@ -15,7 +15,9 @@
     <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/map.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/compras.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/tablas.js') }}"></script>
 @endsection
+
 
 @section("cabecera")
     @include('partials.principal.header')

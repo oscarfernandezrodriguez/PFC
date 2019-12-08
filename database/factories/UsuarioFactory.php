@@ -13,6 +13,6 @@ $factory->define(App\Usuario::class, function (Faker $faker) {
         'nombre' => $faker->firstName,
         'apellido1' => $faker->lastName,
         'apellido2' => $faker->lastName,
-        'tipo_usuario_id'=> random_int(1,\App\Tipo_Usuario::count()-1),
+        'tipo_usuario_id'=> random_int(2,\App\Tipo_Usuario::count()-1),
     ];
 });

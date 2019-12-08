@@ -11,7 +11,7 @@ class CobrosTableSeeder extends Seeder
      */
     public function run()
     {
-            factory(App\Cobro::class, 900)->create();
+            factory(App\Cobro::class, 30)->create();
 
     }
 }

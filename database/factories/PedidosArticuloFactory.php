@@ -8,9 +8,9 @@ use Faker\Generator as Faker;
 $factory->define(\App\Pedido_articulo::class, function (Faker $faker) {
     static $id = 1;
     return [
-        'pedido_id' => $id++,
-        'usuario_id' => App\Usuario::all()->random()->id_usuario,
+        'pedido_id' => $id,
+        'usuario_id' => $id++,
         'articulo_id' => App\Articulo::all()->random()->id_articulo,
-        'unidades'=>$faker->randomNumber(2)
+        'unidades_pedido'=>$faker->randomNumber(2)
     ];
 });

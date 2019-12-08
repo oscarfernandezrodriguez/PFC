@@ -19,8 +19,8 @@ class Categorias extends Controller
     public function seccion($slugSeccion)
     {
         $Secciones = Seccion::all();
-        $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
-        $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
+        $seccion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('id_seccion');
+        $seccionDescripcion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('descripcion_seccion');
         $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->get();
         $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->count();
         $pagina = "Principal";
@@ -43,8 +43,8 @@ class Categorias extends Controller
     {
 
         $Secciones = Seccion::all();
-        $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
-        $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
+        $seccion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('id_seccion');
+        $seccionDescripcion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('descripcion_seccion');
         $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->get();
         $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('unidades','>',0)->count();
         if ($numeroPagina > 0) {
@@ -79,10 +79,10 @@ class Categorias extends Controller
     public function subseccion($slugSeccion, $slugSubseccion)
     {
         $Secciones = Seccion::all();
-        $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
-        $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
-        $subseccion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('id_subseccion');
-        $subseccionDescripcion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('descripcion');
+        $seccion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('id_seccion');
+        $seccionDescripcion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('descripcion_seccion');
+        $subseccion = Subseccion::where('slug_subseccion', 'LIKE', $slugSubseccion)->get('id_subseccion');
+        $subseccionDescripcion = Subseccion::where('slug_subseccion', 'LIKE', $slugSubseccion)->get('descripcion_subseccion');
         $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->get();
         $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->count();
         $pagina = "Principal";
@@ -105,10 +105,10 @@ class Categorias extends Controller
     {
 
         $Secciones = Seccion::all();
-        $seccion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('id_seccion');
-        $seccionDescripcion = Seccion::where('slug', 'LIKE', $slugSeccion)->get('descripcion');
-        $subseccion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('id_subseccion');
-        $subseccionDescripcion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('descripcion');
+        $seccion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('id_seccion');
+        $seccionDescripcion = Seccion::where('slug_seccion', 'LIKE', $slugSeccion)->get('descripcion_seccion');
+        $subseccion = Subseccion::where('slug_subseccion', 'LIKE', $slugSubseccion)->get('id_subseccion');
+        $subseccionDescripcion = Subseccion::where('slug', 'LIKE', $slugSubseccion)->get('descripcion_subseccion');
         $Articulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->get();
         $maxArticulos = Articulo::where('seccion_id', $seccion[0]['id_seccion'])->where('subseccion_id', $subseccion[0]['id_subseccion'])->where('unidades','>',0)->count();
         if ($numeroPagina > 0) {

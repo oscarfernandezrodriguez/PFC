@@ -17,6 +17,7 @@ class CreateCobrosTable extends Migration
             $table->bigIncrements('id_cobro');
             $table->bigInteger('pedido_id')->unsigned();
             $table->bigInteger('empresa_cobro_id')->unsigned();
+            $table->smallInteger('tipo_cobro_id')->unsigned();
             $table->smallInteger('estado_cobro_id')->unsigned();
             $table->timestampsTz();
             $table->softDeletesTz();

@@ -16,7 +16,6 @@ class CreateImagenesArticuloTable extends Migration
         Schema::create('imagenes_articulo', function (Blueprint $table) {
             $table->BigIncrements('id_imagen_articulo');
             $table->bigInteger('usuario_id')->unsigned();
-            $table->bigInteger('articulo_id')->unsigned();
             $table->timestampsTz();
             $table->softDeletesTz();
         });

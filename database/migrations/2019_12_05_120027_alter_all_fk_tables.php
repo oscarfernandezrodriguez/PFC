@@ -15,7 +15,6 @@ class AlterAllFkTables extends Migration
     {
         Schema::table('imagenes_articulo', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
-            $table->foreign('articulo_id')->references('id_articulo')->on('articulos')->onDelete('cascade');
         });
         Schema::table('estado_pedido', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
@@ -56,11 +55,13 @@ class AlterAllFkTables extends Migration
             $table->foreign('pedido_id')->references('id_pedido')->on('pedidos')->onDelete('cascade');
             $table->foreign('empresa_transporte_id')->references('id_empresa_transporte')->on('empresas_transporte')->onDelete('cascade');
             $table->foreign('estado_envio_id')->references('id_estado_envio')->on('estado_envio')->onDelete('cascade');
+            $table->foreign('tipo_transporte_id')->references('id_tipo_transporte')->on('tipos_transporte')->onDelete('cascade');
         });
         Schema::table('cobros', function ($table) {
             $table->foreign('pedido_id')->references('id_pedido')->on('pedidos')->onDelete('cascade');
             $table->foreign('empresa_cobro_id')->references('id_empresa_cobro')->on('empresas_cobro')->onDelete('cascade');
             $table->foreign('estado_cobro_id')->references('id_estado_cobro')->on('estado_cobro')->onDelete('cascade');
+            $table->foreign('tipo_cobro_id')->references('id_tipo_cobro')->on('tipos_cobro')->onDelete('cascade');
         });
         Schema::table('secciones', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
@@ -81,9 +82,6 @@ class AlterAllFkTables extends Migration
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
             $table->foreign('estado_pedido_id')->references('id_estado_pedido')->on('estado_pedido')->onDelete('cascade');
 
-        });
-        Schema::table('bancos', function ($table) {
-            $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
         });
         Schema::table('tarjetas', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
@@ -111,7 +109,6 @@ class AlterAllFkTables extends Migration
     {
         Schema::table('imagenes_articulo', function ($table) {
             $table->dropForeign('imagenes_articulo_usuario_id_foreign');
-            $table->dropForeign('imagenes_articulo_articulo_id_foreign');
         });
         Schema::table('estado_pedido', function ($table) {
             $table->dropForeign('estado_pedido_usuario_id_foreign');
@@ -152,11 +149,13 @@ class AlterAllFkTables extends Migration
             $table->dropForeign('envios_pedido_id_foreign');
             $table->dropForeign('envios_empresa_transporte_id_foreign');
             $table->dropForeign('envios_estado_envio_id_foreign');
+            $table->dropForeign('envios_tipo_transporte_id_foreign');
         });
         Schema::table('cobros', function ($table) {
             $table->dropForeign('cobros_pedido_id_foreign');
             $table->dropForeign('cobros_empresa_cobro_id_foreign');
             $table->dropForeign('cobros_estado_cobro_id_foreign');
+            $table->dropForeign('cobros_tipo_cobro_id_foreign');
         });
         Schema::table('secciones', function ($table) {
             $table->dropForeign('secciones_usuario_id_foreign');
@@ -176,9 +175,6 @@ class AlterAllFkTables extends Migration
             $table->dropForeign('pedidos_usuario_id_foreign');
             $table->dropForeign('pedidos_estado_pedido_id_foreign');
 
-        });
-        Schema::table('bancos', function ($table) {
-            $table->dropForeign('bancos_usuario_id_foreign');
         });
         Schema::table('tarjetas', function ($table) {
             $table->dropForeign('tarjetas_usuario_id_foreign');

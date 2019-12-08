@@ -18,7 +18,7 @@ class CreatePedidosArticuloTable extends Migration
             $table->bigInteger('pedido_id')->unsigned();
             $table->bigInteger('usuario_id')->unsigned();
             $table->bigInteger('articulo_id')->unsigned();
-            $table->integer('unidades');
+            $table->integer('unidades_pedido');
             $table->timestampsTz();
             $table->softDeletesTz();
         });

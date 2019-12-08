@@ -2,24 +2,24 @@
 @if(!isset($slugSeccion))
     <h1 id="cabeceraInfo">Página {{$pagina}}</h1>
 @elseif(isset($slugSubseccion))
-    <h1 id="cabeceraInfo">Página {{$pagina}} de {{$subseccionDescripcion[0]->descripcion}}</h1>
+    <h1 id="cabeceraInfo">Página {{$pagina}} de {{$subseccionDescripcion[0]->descripcion_subseccion}}</h1>
 @else(isset($slugSeccion))
-    <h1 id="cabeceraInfo">Página {{$pagina}} de {{$seccionDescripcion[0]->descripcion}}</h1>
+    <h1 id="cabeceraInfo">Página {{$pagina}} de {{$seccionDescripcion[0]->descripcion_seccion}}</h1>
 @endif
 @for ($numeroArticulo = $minimo; $numeroArticulo <= $maximo; $numeroArticulo++)
     @php
-        $slugCategoria=\App\Seccion::select('secciones.slug')->join('articulos','articulos.seccion_id','=','secciones.id_seccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
-        $slugSubcategoria=\App\Subseccion::select('subsecciones.slug')->join('articulos','articulos.subseccion_id','=','subsecciones.id_subseccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
+        $slugCategoria=\App\Seccion::select('secciones.slug_seccion')->join('articulos','articulos.seccion_id','=','secciones.id_seccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
+        $slugSubcategoria=\App\Subseccion::select('subsecciones.slug_subseccion')->join('articulos','articulos.subseccion_id','=','subsecciones.id_subseccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
         $slugArticulo=\App\Articulo::select('articulos.slug')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
     @endphp
     <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rejilla">
         <div class="producto">
-            <a href="/categoria/{{$slugCategoria[0]['slug']}}/{{$slugSubcategoria[0]['slug']}}/{{$slugArticulo[0]['slug']}}"><img
+            <a href="/categoria/{{$slugCategoria[0]['slug_seccion']}}/{{$slugSubcategoria[0]['slug_subseccion']}}/{{$slugArticulo[0]['slug']}}"><img
                     src="{{ asset('images/imagen_articulo/'.$Articulos[$numeroArticulo]->imagen_articulo_id.'.jpg') }}"
                     class="img-fluid"></a>
             <div class="tituloProducto">
                 <h6>
-                    <a href="/categoria/{{$slugCategoria[0]['slug']}}/{{$slugSubcategoria[0]['slug']}}/{{$slugArticulo[0]['slug']}}">{{$Articulos[$numeroArticulo]->titulo}}</a>
+                    <a href="/categoria/{{$slugCategoria[0]['slug_seccion']}}/{{$slugSubcategoria[0]['slug_subseccion']}}/{{$slugArticulo[0]['slug']}}">{{$Articulos[$numeroArticulo]->titulo}}</a>
                 </h6>
             </div>
             <div class="precioProducto">

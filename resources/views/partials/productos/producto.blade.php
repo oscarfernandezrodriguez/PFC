@@ -18,8 +18,8 @@
                 $Seccion=\App\Seccion::where('id_seccion',$Articulo[0]->seccion_id)->get();
                 $Subseccion=\App\Subseccion::where('id_subseccion',$Articulo[0]->subseccion_id)->get();
             @endphp
-            <h5><i class="fas fa-tag" id="tag"></i> Seccion: <b>{{$Seccion[0]->descripcion}}</b></h5>
-            <h5><i class="fas fa-tags" id="tags"></i> Subseccion: <b>{{$Subseccion[0]->descripcion}}</b></h5>
+            <h5><i class="fas fa-tag" id="tag"></i> Seccion: <b>{{$Seccion[0]->descripcion_seccion}}</b></h5>
+            <h5><i class="fas fa-tags" id="tags"></i> Subseccion: <b>{{$Subseccion[0]->descripcion_subseccion}}</b></h5>
             <div id="controladorCompra">
                 <div id="loQuiero">
                     <a href="javascript://ajax" onclick="updateWishlist('{{$Articulo[0]->id_articulo}}');"><h4><i
@@ -50,19 +50,19 @@
         @endphp
         @for ($numeroArticulo = 0; $numeroArticulo <= $maximo; $numeroArticulo++)
             @php
-                $slugCategoria=\App\Seccion::select('secciones.slug')->join('articulos','articulos.seccion_id','=','secciones.id_seccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
-                $slugSubcategoria=\App\Subseccion::select('subsecciones.slug')->join('articulos','articulos.subseccion_id','=','subsecciones.id_subseccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
+                $slugCategoria=\App\Seccion::select('secciones.slug_seccion')->join('articulos','articulos.seccion_id','=','secciones.id_seccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
+                $slugSubcategoria=\App\Subseccion::select('subsecciones.slug_subseccion')->join('articulos','articulos.subseccion_id','=','subsecciones.id_subseccion')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
                 $slugArticulo=\App\Articulo::select('articulos.slug')->where('articulos.id_articulo','=',$Articulos[$numeroArticulo]->id_articulo)->get();
             @endphp
             <div class="col-12 col-sm-6 col-lg-6 col-xl-3  rejilla">
                 <div class="producto">
-                    <a href="/categoria/{{$slugCategoria[0]['slug']}}/{{$slugSubcategoria[0]['slug']}}/{{$slugArticulo[0]['slug']}}"><img
+                    <a href="/categoria/{{$slugCategoria[0]['slug_seccion']}}/{{$slugSubcategoria[0]['slug_subseccion']}}/{{$slugArticulo[0]['slug']}}"><img
                             src="{{ asset('images/imagen_articulo/'.$Articulos[$numeroArticulo]->imagen_articulo_id.'.jpg') }}"
                             class="img-fluid"></a>
                     <div class="tituloProducto">
 
                         <h6>
-                            <a href="/categoria/{{$slugCategoria[0]['slug']}}/{{$slugSubcategoria[0]['slug']}}/{{$slugArticulo[0]['slug']}}">{{$Articulos[$numeroArticulo]->titulo}}</a>
+                            <a href="/categoria/{{$slugCategoria[0]['slug_seccion']}}/{{$slugSubcategoria[0]['slug_subseccion']}}/{{$slugArticulo[0]['slug']}}">{{$Articulos[$numeroArticulo]->titulo}}</a>
                         </h6>
                     </div>
                     <div class="precioProducto">
@@ -70,11 +70,11 @@
                     </div>
                     <div class="controladorCompra">
                         <div class="botonWhish">
-                            <i class="fas fa-heart"></i>
+                            <a href="javascript://ajax"  onclick="updateWishlist('{{$Articulos[$numeroArticulo]->id_articulo}}');"><i class="fas fa-heart"></i></a>
                         </div>
                         <div class="botonComprar">
                             <i class="fas fa-shopping-basket"></i>
-                            <p>Añadir al carrito</p>
+                            <a href="javascript://ajax"  onclick="updateOrder('{{$Articulos[$numeroArticulo]->id_articulo}}');"><p>Añadir al carrito</p></a>
                         </div>
                     </div>
                 </div>

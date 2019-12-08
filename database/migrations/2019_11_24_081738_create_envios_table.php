@@ -17,6 +17,7 @@ class CreateEnviosTable extends Migration
             $table->bigIncrements('id_envio');
             $table->bigInteger('pedido_id')->unsigned();
             $table->bigInteger('empresa_transporte_id')->unsigned();
+            $table->smallInteger('tipo_transporte_id')->unsigned();
             $table->smallInteger('estado_envio_id')->unsigned();
             $table->timestampsTz();
             $table->softDeletesTz();

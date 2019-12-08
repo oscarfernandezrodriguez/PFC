@@ -11,5 +11,6 @@ $factory->define(\App\Envio::class, function (Faker $faker) {
         'pedido_id' => $id_pedido++,
         'empresa_transporte_id' => App\Empresa_transporte::all()->random()->id_empresa_transporte,
         'estado_envio_id' => App\Estado_envio::all()->random()->id_estado_envio,
+        'tipo_transporte_id' => App\Tipos_Transporte::all()->random()->id_tipo_transporte,
     ];
 });

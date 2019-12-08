@@ -11,5 +11,7 @@ $factory->define(\App\Cobro::class, function (Faker $faker) {
         'pedido_id' => $id++,
         'empresa_cobro_id' => App\Empresa_cobro::all()->random()->id_empresa_cobro,
         'estado_cobro_id' => App\Estado_cobro::all()->random()->id_estado_cobro,
+        'tipo_cobro_id' => App\Tipos_Cobro::all()->random()->id_tipo_cobro,
     ];
 });
+

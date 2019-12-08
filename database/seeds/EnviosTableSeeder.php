@@ -11,6 +11,6 @@ class EnviosTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Envio::class, 900)->create();
+        factory(App\Envio::class, 30)->create();
     }
 }

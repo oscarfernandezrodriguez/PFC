@@ -6,8 +6,9 @@ use \App\Pedido;
 use Faker\Generator as Faker;
 
 $factory->define(\App\Pedido::class, function (Faker $faker) {
+    static $usuario=1;
     return [
-        'usuario_id' => App\Usuario::all()->random()->id_usuario,
-        'estado_pedido_id' => App\Estado_pedido::all()->random()->id_estado_pedido,
+        'usuario_id' => $usuario++,
+        'estado_pedido_id' => $faker->numberBetween(2,11),
     ];
 });
