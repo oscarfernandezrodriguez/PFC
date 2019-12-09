@@ -2,188 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b24bcb-bacc-4596-95dd-3aee4a76024b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Buscador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Carrito.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/storage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/28/10/281070fe8b21e1a59b7ffce4b96b9013a8b7f29a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/dc/c4/dcc4973aa9c4577f646152bedf460003bc519fa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/wnrd3sp4Moss9LLSyi85wJYwZf9DmHBCVEEsKpJ2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/0452a931590673677567978ba36799a2b848e1ad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/0f2618964d99987be3e37d0357d5b659533a0d24.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/16045b2780741aaeb0cc5e8ee360848ca51f8af2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/16596d421b1f2144d338f0b9550aa56365d1a656.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/1aaf152bc40ce060a4c58b85293816a702a944ee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/1f153ff0284733315e781288bb8dceb7ce2b471c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/25288004a6feb3bbf0343c3ffac1f438ad88498b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/2678a0580632c770b5f5e4e2c5a76922922a03ce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/386915a3b9a60e3fc4655e947334b148553b66fa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/3c262dfa4ec9edf2f03f2fb6f06def2a6b149fa5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/4335c67432c328e51211c27a1e624a0faa064e7e.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/47d864d148d619a040497b8ab001824a66e53fbb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/5775eef1bccc5a58656e664e613f7fc8ade67b97.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/58bfb4f45c0c8535c925b53573fefabb64e65a7d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/5de3368c63424e212a37a6131e50f1d95a45042f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/60e6bebbf07fa67494ac7941acbd21ba76ff755e.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/643cdc26211ec84dbb5b1f457a10bfb38b9e97d2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/6f40172463e26fce1ed59753cb5ad70a1cbaf0a2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/73551aa056ef0dc47423b44d21add6a276981ba9.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/7b11e00aea19e93325464741be42486715c33d49.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/8394e0291920c7a94d0225cd415d9cdb7c128bdb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/8607f1fccbd3ba0583188806c0a88c23fcce9e3c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/89f2de2230cc1c2b60a7fe4396278f9e6aaca0c9.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/923664e957e303c87747dd6535efa84c47518c8a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/92f03a753daa35959233bb9ab382310852221177.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/94471a81b595539eaea0a038baebb70151e73fc0.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/96a35b0824f815410fdbc25f9f8533b1c94537b3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/a0b8f03addcdcf1aacf59e9d7bc140923f8197ea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/a5bee6c6e90e01ae6c48dee49734e78dfd7755fd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/a81c5ba225d7d19bcc479ca1d0cf5f05a54535ed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/a837d86d4e7c88615fcbf479bd2b191b2d44b612.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/af3fd2eb9e10f09d6d786fefdf7dc0b6231796a0.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/b7d5ab7343cedb726a6f6b97fcdd75dce4a0064a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/b7f229e94de67d9bdafc71f41acc17da5acbdec5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c5f34d708642e7fdf9789e2ba8d9243a5fd9c2a5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c71b1618312bf306814e683b683a9b3221b8ee3c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c8838ffe954a29adbf6a66e77ea614c0b7e7a592.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/ce8a76f4e60ad9309e3927a1dd865de580f9a786.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/d4ce17232b0c4b6cfac90a87e571a113c97baf66.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/dfd9a71e11338fe3c6c8a9ec994e6065dfc72b10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/e0a1e768d2053dc53688b2a4b8fc37e9c4f9d46d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/f7110601c7013ba18a4535fcdefae0eb96914411.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/fcfe9c15d2a09ab5d9b6efad63a0d051a80edd47.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-24.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-11-30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-07.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-12-08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/SeekException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Pool.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RequestOptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RetryMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/UriTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/AggregateException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/CancellationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Coroutine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/EachPromise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/FulfilledPromise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Promise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromiseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromisorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectedPromise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueueInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/BufferStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/CachingStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/DroppingStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LimitStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/NoSeekStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Rfc7230.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UploadedFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/src/getallheaders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Direccion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/DireccionesFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_24_081512_create_direcciones_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_05_120027_alter_all_fk_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_05_120027_alter_all_fk_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DireccionesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +263,8 @@
       <workItem from="1575741497369" duration="20630000" />
       <workItem from="1575768757721" duration="6327000" />
       <workItem from="1575795731141" duration="2291000" />
-      <workItem from="1575798070982" duration="43051000" />
+      <workItem from="1575798070982" duration="43382000" />
+      <workItem from="1575858869048" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del Proyecto- base de datos gestionada">
       <created>1574608316202</created>
@@ -534,22 +363,22 @@
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="781" y="417" key="Github.CreateGistDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575848789622" />
-    <state width="1807" height="244" key="GridCell.Tab.0.bottom" timestamp="1575800900740">
+    <state width="1807" height="244" key="GridCell.Tab.0.bottom" timestamp="1575849135490">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1807" height="244" key="GridCell.Tab.0.bottom/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
-    <state width="1807" height="244" key="GridCell.Tab.0.center" timestamp="1575800900740">
+    <state width="1807" height="244" key="GridCell.Tab.0.bottom/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575849135490" />
+    <state width="1807" height="244" key="GridCell.Tab.0.center" timestamp="1575849135490">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1807" height="244" key="GridCell.Tab.0.center/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
-    <state width="1807" height="244" key="GridCell.Tab.0.left" timestamp="1575800900740">
+    <state width="1807" height="244" key="GridCell.Tab.0.center/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575849135490" />
+    <state width="1807" height="244" key="GridCell.Tab.0.left" timestamp="1575849135490">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1807" height="244" key="GridCell.Tab.0.left/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
-    <state width="1807" height="244" key="GridCell.Tab.0.right" timestamp="1575800900740">
+    <state width="1807" height="244" key="GridCell.Tab.0.left/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575849135490" />
+    <state width="1807" height="244" key="GridCell.Tab.0.right" timestamp="1575849135490">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state width="1807" height="244" key="GridCell.Tab.0.right/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575800900740" />
+    <state width="1807" height="244" key="GridCell.Tab.0.right/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575849135490" />
     <state x="791" y="313" width="394" height="373" key="NewPhpClassDialog" timestamp="1575490844897">
       <screen x="67" y="27" width="1853" height="948" />
     </state>

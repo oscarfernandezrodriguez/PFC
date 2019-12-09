@@ -86,9 +86,6 @@ class AlterAllFkTables extends Migration
         Schema::table('tarjetas', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
         });
-        Schema::table('direcciones', function ($table) {
-            $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
-        });
         Schema::table('tipos_usuario', function ($table) {
             $table->foreign('usuario_id')->references('id_usuario')->on('usuarios')->onDelete('cascade');
         });
@@ -178,9 +175,6 @@ class AlterAllFkTables extends Migration
         });
         Schema::table('tarjetas', function ($table) {
             $table->dropForeign('tarjetas_usuario_id_foreign');
-        });
-        Schema::table('direcciones', function ($table) {
-            $table->dropForeign('direcciones_usuario_id_foreign');
         });
         Schema::table('tipos_usuario', function ($table) {
             $table->dropForeign('tipos_usuario_usuario_id_foreign');

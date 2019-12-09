@@ -7,10 +7,10 @@
         <?php if(auth()->guard()->guest()): ?>
             <p><a href="/autenticarse"><i class="fa fa-user"></i>Mi cuenta</a></p>
         <?php else: ?>
-            <p><a href="/panel-de-control"><i
-                        class="fa fa-user"></i> <?php echo e(Auth::user()->nombre); ?> <?php echo e(Auth::user()->apellido1); ?></a> <a
+            <p><i
+                        class="fa fa-user"></i> <?php echo e(Auth::user()->nombre); ?> <?php echo e(Auth::user()->apellido1); ?> <a
                     href="<?php echo e(route('logout')); ?>"
-                    onclick="event.preventDefault();document.getElementById('logout-form').submit();"><i id="logoutI"
+                    onclick="event.preventDefault(),modal('nosave', 'Alertas Usuario', 'Esta siendo deslogueado'),document.getElementById('logout-form').submit();"><i id="logoutI"
                                                                                                          class="fas fa-times-circle "></i></a>
             </p>
         <?php endif; ?>
@@ -19,7 +19,14 @@
         </form>
     </div>
     <div id="carrito" class="col-12  col-lg-3 col-xl-2">
-        <p><i class="fas fa-shopping-cart"></i> (0) Productos</p>
+        <?php if(auth()->guard()->check()): ?>
+        <a href="/carrito/"><p><i class="fas fa-shopping-cart"></i> (
+                <input type="text"  id="numeroProductos" disabled value=" <?php echo \App\Pedido::where('pedidos.usuario_id',Auth::user()->id_usuario)->where('estado_pedido_id','1')->join('pedidos_articulo','pedidos_articulo.pedido_id','pedidos.id_pedido')->sum('pedidos_articulo.unidades_pedido'); ?>"> ) Productos</p></a>
+        <?php endif; ?>
+        <?php if(auth()->guard()->guest()): ?>
+                <p><i class="fas fa-shopping-cart"></i> (
+                <input type="text" id="numeroProductos" disabled value="0"> ) Productos</p>
+            <?php endif; ?>
     </div>
 </div>
 <div id="medioCabecera">

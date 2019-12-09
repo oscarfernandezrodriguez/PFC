@@ -6,7 +6,16 @@
             </div>
             <div id="menuSecciones">
                 <ul>
-                    <li><i class="fas fa-info infoPA"></i>Información</li>
+                    <?php if(Auth::user()->tipo_usuario_id==1): ?>
+                        <li><i class="fas fa-users usersPA"></i><a href="/panel-de-control/usuarios/">Usuarios</a></li>
+                        <?php endif; ?>
+                        <?php if(Auth::user()->tipo_usuario_id<=3): ?>
+                            <li><i class="fas fa-truck truckPA"></i><a href="/panel-de-control/envios/">Envios</a></li>
+                        <?php endif; ?>
+                        <?php if(Auth::user()->tipo_usuario_id<=2 || Auth::user()->tipo_usuario_id<=4): ?>
+                            <li><i class="fas fa-money-bill-wave billPA"></i><a href="/panel-de-control/cobros/">Cobros</a></li>
+                        <?php endif; ?>
+                    <li><i class="fas fa-info infoPA"></i><a href="/panel-de-control/<?php echo e(Auth::user()->id_usuario); ?>/informacion/">Información</a></li>
                     <li><i class="fas fa-gifts giftsPA"></i><a href="/panel-de-control/<?php echo e(Auth::user()->id_usuario); ?>/pedidos/">Pedidos</a></li>
                     <li><i class="far fa-comments comentariosPA"></i><a href="/panel-de-control/<?php echo e(Auth::user()->id_usuario); ?>/comentarios/">Comentarios</a></li>
                     <li><i class="fas fa-heart heartPA"></i><a href="/panel-de-control/<?php echo e(Auth::user()->id_usuario); ?>/wishlist/">Wishlist</a></li>
