@@ -4,14 +4,10 @@
     <list default="true" id="e1b24bcb-bacc-4596-95dd-3aee4a76024b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Direccion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/DireccionesFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_24_081512_create_direcciones_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_05_120027_alter_all_fk_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_05_120027_alter_all_fk_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DireccionesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/Ub3MxUBhfl5BSApRhgRyE9fjLOiJsTwAQmOaoaG5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/455752ddbb7ebcff0b8fc991dae940e9d2ea7941.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e1bfe73efe8dee64800bb2839a6e59c29daa2c44.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/wnrd3sp4Moss9LLSyi85wJYwZf9DmHBCVEEsKpJ2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/3c262dfa4ec9edf2f03f2fb6f06def2a6b149fa5.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/3c262dfa4ec9edf2f03f2fb6f06def2a6b149fa5.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +261,7 @@
       <workItem from="1575795731141" duration="2291000" />
       <workItem from="1575798070982" duration="43382000" />
       <workItem from="1575858869048" duration="781000" />
+      <workItem from="1575861775962" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del Proyecto- base de datos gestionada">
       <created>1574608316202</created>
@@ -395,10 +392,11 @@
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575848767768" />
-    <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575822295046">
+    <state x="216" y="74" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575862697763">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1853.948/1920.0.1920.975@67.27.1853.948" timestamp="1575822295046" />
+    <state x="216" y="74" width="1653" height="750" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/67.27.1853.948@67.27.1853.948" timestamp="1575862697763" />
     <state x="167" y="125" width="1653" height="750" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575822358960">
       <screen x="67" y="27" width="1853" height="948" />
     </state>

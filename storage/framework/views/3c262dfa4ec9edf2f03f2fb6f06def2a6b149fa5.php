@@ -1,6 +1,6 @@
 <section>
     <?php if(isset($pedidoRealizado)): ?>
-       <h1 class="alert alert-danger col-12" id="cabeceraInfo">Has creado el pedido <?php echo e($pedidoRealizado); ?> con éxito</h1>
+       <h1 class="alert alert-sucess col-12" id="cabeceraInfo">Has creado el pedido <?php echo e($pedidoRealizado); ?> con éxito</h1>
         <?php endif; ?>
     <h1 id="cabeceraInfo">Has realizado (<?php echo e(sizeof($Pedidos)); ?>) pedidos en nuestra web</h1>
 
